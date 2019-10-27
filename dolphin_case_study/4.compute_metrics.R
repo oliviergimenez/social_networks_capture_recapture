@@ -58,8 +58,8 @@ network1 <- network1[,-1]
 network1 <- network1[mask,]
 nn <- as.network(network1)
 # compute degree and betweeness
-degreeMCMC[i,1,] <- degree(nn,gmod='graph') # node degree
-betweenMCMC[i,1,] <- betweenness(nn,gmod='graph') # betweeness
+degreeMCMC[i,1,] <- sna::degree(nn,gmod='graph') # node degree
+betweenMCMC[i,1,] <- sna::betweenness(nn,gmod='graph') # betweeness
 	}
 
 # network at occasion 2
@@ -71,8 +71,8 @@ network1 <- network1[,-1]
 network1 <- network1[mask,]
 nn <- as.network(network1)
 # compute degree and betweeness
-degreeMCMC[i,2,] <- degree(nn,gmod='graph') # node degree
-betweenMCMC[i,2,] <- betweenness(nn,gmod='graph') # betweeness
+degreeMCMC[i,2,] <- sna::degree(nn,gmod='graph') # node degree
+betweenMCMC[i,2,] <- sna::betweenness(nn,gmod='graph') # betweeness
 	}
 
 # network at occasion 3
@@ -84,8 +84,8 @@ network1 <- network1[,-1]
 network1 <- network1[mask,]
 nn <- as.network(network1)
 # compute degree and betweeness
-degreeMCMC[i,3,] <- degree(nn,gmod='graph') # node degree
-betweenMCMC[i,3,] <- betweenness(nn,gmod='graph') # betweeness
+degreeMCMC[i,3,] <- sna::degree(nn,gmod='graph') # node degree
+betweenMCMC[i,3,] <- sna::betweenness(nn,gmod='graph') # betweeness
 	}
 
 # network at occasion 4
@@ -97,8 +97,8 @@ network1 <- network1[,-1]
 network1 <- network1[mask,]
 nn <- as.network(network1)
 # compute degree and betweeness
-degreeMCMC[i,4,] <- degree(nn,gmod='graph') # node degree
-betweenMCMC[i,4,] <- betweenness(nn,gmod='graph') # betweeness
+degreeMCMC[i,4,] <- sna::degree(nn,gmod='graph') # node degree
+betweenMCMC[i,4,] <- sna::betweenness(nn,gmod='graph') # betweeness
 	}
 
 # network at occasion 5
@@ -110,8 +110,8 @@ network1 <- network1[,-1]
 network1 <- network1[mask,]
 nn <- as.network(network1)
 # compute degree and betweeness
-degreeMCMC[i,5,] <- degree(nn,gmod='graph') # node degree
-betweenMCMC[i,5,] <- betweenness(nn,gmod='graph') # betweeness
+degreeMCMC[i,5,] <- sna::degree(nn,gmod='graph') # node degree
+betweenMCMC[i,5,] <- sna::betweenness(nn,gmod='graph') # betweeness
 	}
 
 

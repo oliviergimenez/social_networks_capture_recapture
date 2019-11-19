@@ -6,4 +6,4 @@ This repository contains `R` codes to reproduce the analyses from our paper 'Inf
 
 We used a Bayesian approach with MCMC simulations to implement our model. We used non-informative uniform U[0,1] prior distributions for all parameters. Convergence was assessed using the Brooks-Gelman-Rubin statistic. Mixing was checked visually by inspecting the chains. 
 
-Reference: Gimenez O., L. Mansilla, M.J. Klaich, M.A. Coscarella, S.N. Pedraza, E.A. Crespo (2019). Inferring animal social networks with imperfect detection. Ecological Modelling. 401: 69-74.
+Reference: Gimenez O., L. Mansilla, M.J. Klaich, M.A. Coscarella, S.N. Pedraza, E.A. Crespo (2019). [Inferring animal social networks with imperfect detection](https://oliviergimenez.github.io/pubs/Gimenezetal2019EcolModel.pdf). Ecological Modelling. 401: 69-74.
